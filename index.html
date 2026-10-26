@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sadhugy | Custom Web Apps & Websites</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-white text-gray-900 font-sans antialiased selection:bg-gray-900 selection:text-white flex flex-col min-h-screen">
+
+    <!-- Navigation -->
+    <nav class="w-full bg-white border-b border-gray-200 relative z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-20">
+                <!-- Logo -->
+                <div class="flex-shrink-0 flex items-center cursor-pointer" onclick="window.scrollTo(0,0)">
+                    <span class="text-2xl font-bold tracking-tight text-gray-900">
+                        Sadhugy.
+                    </span>
+                </div>
+                
+                <!-- Desktop Menu -->
+                <div class="hidden md:flex items-center space-x-8">
+                    <a href="#services" class="text-gray-600 hover:text-gray-900 transition-colors font-medium text-sm">Services</a>
+                    <a href="mailto:support@sadhugy.com" class="inline-flex items-center justify-center px-6 py-2.5 text-sm font-medium rounded-md text-white bg-gray-900 hover:bg-black transition-colors">
+                        Hire Us
+                    </a>
+                </div>
+
+                <!-- Mobile menu button -->
+                <div class="md:hidden flex items-center">
+                    <a href="mailto:support@sadhugy.com" class="inline-flex items-center justify-center px-5 py-2 text-sm font-medium rounded-md text-white bg-gray-900 hover:bg-black transition-colors">
+                        Hire Us
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <main class="flex-grow">
+        <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24 md:py-32 lg:py-40">
+            <div class="max-w-4xl">
+                <h1 class="text-5xl md:text-6xl lg:text-7xl font-bold tracking-tight text-gray-900 leading-tight mb-8">
+                    Custom websites and web applications for modern businesses.
+                </h1>
+                
+                <p class="text-xl md:text-2xl text-gray-600 mb-12 font-normal max-w-2xl leading-relaxed">
+                    We develop highly professional, scalable digital solutions. Every project includes tailored architecture and a custom .com domain.
+                </p>
+                
+                <div class="flex flex-col sm:flex-row items-start space-y-4 sm:space-y-0 sm:space-x-4">
+                    <a href="mailto:support@sadhugy.com" class="w-full sm:w-auto inline-flex items-center justify-center px-8 py-4 text-base font-medium rounded-md text-white bg-gray-900 hover:bg-black transition-colors">
+                        <svg class="w-5 h-5 mr-2.5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="square" stroke-linejoin="miter" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
+                        </svg>
+                        Contact via Email
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section id="services" class="bg-gray-50 py-24 border-y border-gray-200">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="mb-16">
+                    <h2 class="text-3xl font-bold tracking-tight text-gray-900">Services & Offerings</h2>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-px bg-gray-200 border border-gray-200">
+                    <!-- Service 1 -->
+                    <div class="bg-white p-10">
+                        <div class="mb-6 text-gray-900">
+                            <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="square" stroke-linejoin="miter" stroke-width="2" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"></path></svg>
+                        </div>
+                        <h3 class="text-xl font-bold text-gray-900 mb-4">Web Applications</h3>
+                        <p class="text-gray-600 leading-relaxed text-sm">
+                            Complex, scalable web platforms built with robust frameworks. Tailored exactly to your specific operational workflows and business logic.
+                        </p>
+                    </div>
+
+                    <!-- Service 2 -->
+                    <div class="bg-white p-10">
+                        <div class="mb-6 text-gray-900">
+                            <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="square" stroke-linejoin="miter" stroke-width="2" d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9"></path></svg>
+                        </div>
+                        <h3 class="text-xl font-bold text-gray-900 mb-4">Custom .com Domains</h3>
+                        <p class="text-gray-600 leading-relaxed text-sm">
+                            Professional identity is critical. Every project includes setup, configuration, and inclusion of a premium .com domain to establish immediate trust.
+                        </p>
+                    </div>
+
+                    <!-- Service 3 -->
+                    <div class="bg-white p-10">
+                        <div class="mb-6 text-gray-900">
+                            <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="square" stroke-linejoin="miter" stroke-width="2" d="M4 5a1 1 0 011-1h14a1 1 0 011 1v2a1 1 0 01-1 1H5a1 1 0 01-1-1V5zM4 13a1 1 0 011-1h6a1 1 0 011 1v6a1 1 0 01-1 1H5a1 1 0 01-1-1v-6zM16 13a1 1 0 011-1h2a1 1 0 011 1v6a1 1 0 01-1 1h-2a1 1 0 01-1-1v-6z"></path></svg>
+                        </div>
+                        <h3 class="text-xl font-bold text-gray-900 mb-4">Corporate Websites</h3>
+                        <p class="text-gray-600 leading-relaxed text-sm">
+                            High-performance, fully responsive corporate websites designed for speed, accessibility, and converting visitors into clients.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section class="py-24 bg-white">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+                <h2 class="text-3xl font-bold text-gray-900 mb-6">Initiate a Project</h2>
+                <p class="text-lg text-gray-600 mb-10 max-w-2xl mx-auto">
+                    Contact us directly via email to discuss technical requirements, timelines, and deliverables.
+                </p>
+                <a href="mailto:support@sadhugy.com" class="inline-flex items-center justify-center px-8 py-4 text-base font-medium rounded-md text-gray-900 bg-white border-2 border-gray-900 hover:bg-gray-50 transition-colors">
+                    Email support@sadhugy.com
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-white border-t border-gray-200 py-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex flex-col md:flex-row justify-between items-center">
+                <div class="mb-4 md:mb-0">
+                    <span class="text-xl font-bold text-gray-900">Sadhugy.</span>
+                </div>
+                <div class="text-sm text-gray-500">
+                    &copy; 2026 Sadhugy. All rights reserved.
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
